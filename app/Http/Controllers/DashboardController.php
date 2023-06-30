@@ -25,10 +25,6 @@ class DashboardController extends Controller
       return view('dashboard.loans', compact('user'));
    }
 
-   public function reports(){
-         return view('dashboard/reports');
-   }
-
    public function settings(){
          return view('dashboard/settings');
    }
